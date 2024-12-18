@@ -1,0 +1,10 @@
+from collections import namedtuple
+
+Network = namedtuple('Network', 'ssid password')
+
+# Note: Pi Pico W only does 2.4ghz not 5ghz. Maybe newer revisions will support modern wifi too.
+networks = (
+    Network('phone-hotspot', 'wifipassword'), # phone
+    Network('home-wifi', 'wifipassword'), # home
+    Network('shul-wifi', 'wifipassword'), # shul
+)
