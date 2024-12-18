@@ -14,7 +14,7 @@ edit `networks.py.example` to add the wifi networks you want to connect to and s
 
 make a note of the wifi password in `host.py` should it be needed. change the settings in there too if you want.  
 
-in `menorah.py` near the top is a tuple called `pins`. if yours ends up wired different (almost certainly) you will need to come back here and change the order of this tuple to match what you actually built.
+in `menorah.py` near the top is a tuple called `pins`. if yours ends up wired different (almost certainly) you will need to come back here and change the order of this tuple to match what you actually built. there are also some buttons that need to be on the correct pins (or left off completely).
 
 run setup.py  
     `python setup.py`  
